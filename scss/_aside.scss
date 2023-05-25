@@ -1,0 +1,29 @@
+
+
+aside {
+    background-color: rgba(245, 245, 220, 0.98);
+    padding: 20px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    .logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: pink;
+        // padding-left: 30%;
+    }
+
+    ul {
+        letter-spacing: 1.2px;
+        line-height: 40px;
+        li {
+            padding: 5px 50px;
+            &:hover {
+                background-color: beige;
+            }
+        }
+
+    }
+}

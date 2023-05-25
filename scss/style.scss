@@ -1,0 +1,23 @@
+
+@forward 'index' ;
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body, ul {
+    padding: 0;
+    margin: 0;
+    // background-color: rgb(218, 159, 159)
+}
+
+a, A:visited {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+li {
+    list-style: none;
+}
+
