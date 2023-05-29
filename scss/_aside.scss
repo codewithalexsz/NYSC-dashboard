@@ -2,7 +2,9 @@
 
 aside {
     background-color: rgba(245, 245, 220, 0.98);
-    padding: 20px 2px;
+    padding: 20px 30px;
+    width: 800px;
+    // align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,9 +19,11 @@ aside {
 
     ul {
         letter-spacing: 1.2px;
-        line-height: 40px;
+        line-height: 30px;
+        
         li {
-            padding: 5px 50px;
+            width: 100%;
+            padding: 5px 10px;
             &:hover {
                 background-color: beige;
             }

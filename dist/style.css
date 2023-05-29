@@ -1,6 +1,7 @@
 aside {
   background-color: rgba(245, 245, 220, 0.98);
-  padding: 20px 2px;
+  padding: 20px 30px;
+  width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,13 +15,80 @@ aside .logo {
 }
 aside ul {
   letter-spacing: 1.2px;
-  line-height: 40px;
+  line-height: 30px;
 }
 aside ul li {
-  padding: 5px 50px;
+  width: 100%;
+  padding: 5px 10px;
 }
 aside ul li:hover {
   background-color: beige;
+}
+
+.clearnace-schedule {
+  background-color: rgb(187, 209, 162);
+  padding: 20px 20px;
+}
+.clearnace-schedule button {
+  cursor: pointer;
+  width: 100px;
+  border-style: none;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2.5px;
+  margin-top: 10px;
+  background-color: rgba(58, 197, 58, 0.938);
+}
+.clearnace-schedule button:hover {
+  background-color: rgb(46, 172, 46);
+}
+
+.display-feed {
+  background-color: white;
+  padding: 2rem 3rem;
+}
+
+.bio {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.user-display img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.bio-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+.bio-data .datafield-btns button {
+  cursor: pointer;
+  width: 130px;
+  border-style: none;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2.5px;
+  background-color: rgba(58, 197, 58, 0.938);
+}
+.bio-data .datafield-btns button:hover {
+  background-color: rgb(46, 172, 46);
+}
+
+.datafield {
+  padding: 10px 20px;
+  width: 270px;
+  background-color: rgba(153, 152, 152, 0.808);
+  border-radius: 3.5px;
+  display: flex;
+  gap: 20px;
 }
 
 header ul {
