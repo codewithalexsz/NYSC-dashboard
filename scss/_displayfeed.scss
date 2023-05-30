@@ -56,3 +56,135 @@
     display: flex;
     gap: 20px;
 }
+
+
+
+//  DISPLAY FEEED FOR COURSE CORRECTION
+//  DISPLAY FEEED FOR COURSE CORRECTION
+//  DISPLAY FEEED FOR COURSE CORRECTION
+
+.CC-display-feed {
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+}
+
+.coursereq {
+    background-color: rgba(103, 209, 76, 0.5);
+    width: 500px;
+    padding: 7px 10px;
+    font-weight: bold;
+    color: rgb(5, 53, 5);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.details {
+    // padding-left: 40px;
+    display: flex;
+    max-width: 90%;
+    flex-wrap: wrap;
+    // outline: 2px red dashed;
+    margin: 0 auto;
+
+    .detailfield {
+        padding: 10px 20px;
+        width: 230px;
+        background-color: rgba(209, 203, 203, 0.808);
+        border-radius: 3.5px;
+        display: flex;
+        gap: 15px;
+        margin: 15px;
+
+        .f-title {
+            color: rgb(39, 39, 39);
+        }
+        .f-data {
+            font-weight: bold;
+            color: rgb(56, 54, 54);
+            font-size: 13px;
+        }
+    }
+}
+
+.update-details {
+    margin-top: 30px;
+
+    .update-entry{
+        margin-top: 15px;
+        .u-title{
+            color: rgb(53, 52, 52);
+            margin-bottom: 5px;
+        }
+    }
+    input {
+        width: 80%;
+        padding: 3px 15px;
+        // border-radius: 5px;
+        &::placeholder {
+            font-size: small;
+        }
+        
+    }
+
+    
+}
+
+.save-details {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(46, 172, 46);
+    }
+    width: 130px;
+    border-style: none;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2.5px;
+    background-color: rgba(58, 197, 58, 0.938);
+}
+
+
+
+//  DISPLAY FEED FOR LGA CLEARANCE
+//  DISPLAY FEED FOR LGA CLEARANCE
+//  DISPLAY FEED FOR LGA CLEARANCE
+//  DISPLAY FEED FOR LGA CLEARANCE
+
+.lgac-display-feed{
+    padding: 0 20px;
+    width: 90%;
+    // outline: 2px dashed blue;
+}
+
+.Monthly-clearance{
+    background-color: rgba(103, 209, 76, 0.5);
+    width: 500px;
+    padding: 7px 10px;
+    font-weight: bold;
+    color: rgb(5, 53, 5);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.clearance-entries{
+    display: flex;
+    gap: 20px;
+    line-height: 30px;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+
+    width: 80%;
+    margin: 40px auto;
+    justify-content: space-between;
+    // outline: 2px dashed red;
+
+    .ce-title{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}

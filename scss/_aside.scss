@@ -3,12 +3,12 @@
 aside {
     background-color: rgba(245, 245, 220, 0.98);
     padding: 20px 30px;
-    width: 800px;
+    min-width: 200px;
     // align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
+    // justify-content: space-between;
+    gap: 70px;
     .logo {
         width: 60px;
         height: 60px;
