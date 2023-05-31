@@ -90,6 +90,64 @@ aside ul li:hover {
   gap: 20px;
 }
 
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 30px 0;
+}
+.bottom-section .blog-posts {
+  background-color: rgb(32, 32, 32);
+  color: whitesmoke;
+  padding: 15px 20px;
+  height: 150px;
+  width: 450px;
+}
+.bottom-section .blog-posts .blog-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.bottom-section .blog-posts .posts {
+  font-size: small;
+  cursor: pointer;
+  letter-spacing: 2.5px;
+  padding: 13px 0;
+  border-bottom: 0.4px solid grey;
+}
+
+.reach-us {
+  height: 150px;
+  width: 250px;
+  padding: 15px 10px;
+  border: 0.4px solid grey;
+}
+.reach-us .ru-title {
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 10px;
+}
+.reach-us input {
+  width: 90%;
+  height: 90px;
+  border-style: none;
+  background-color: rgb(231, 234, 238);
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+.reach-us .send {
+  cursor: pointer;
+  width: 130px;
+  border-style: none;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2.5px;
+  background-color: rgba(58, 197, 58, 0.938);
+}
+.reach-us .send:hover {
+  background-color: rgb(46, 172, 46);
+}
+
 .CC-display-feed {
   text-align: center;
   display: flex;
@@ -185,8 +243,8 @@ aside ul li:hover {
   display: flex;
   gap: 20px;
   line-height: 30px;
-  border-top: 1px solid grey;
-  padding-top: 20px;
+  border: 1px solid grey;
+  padding: 20px;
   width: 80%;
   margin: 40px auto;
   justify-content: space-between;
@@ -194,6 +252,68 @@ aside ul li:hover {
 .clearance-entries .ce-title {
   text-decoration: underline;
   font-weight: bold;
+}
+.clearance-entries .sn-count, .clearance-entries .m-count, .clearance-entries .status {
+  font-size: small;
+}
+
+.Disciplinary-case-display-feed {
+  padding: 40px;
+  width: 90%;
+}
+
+.DisciplinaryCase {
+  background-color: rgba(103, 209, 76, 0.5);
+  width: 100%;
+  padding: 7px 10px;
+  font-weight: bold;
+  color: rgb(5, 53, 5);
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.personaldetails {
+  font-size: small;
+  padding-bottom: 3px;
+  border-bottom: 0.5px solid grey;
+  margin-top: 10px;
+}
+
+.p-details {
+  margin: 20px 0;
+  padding: 20px;
+  font-size: small;
+  line-height: 40px;
+  border: 0.5px solid grey;
+}
+
+.case-appeal {
+  margin-bottom: 20px;
+  font-size: small;
+  padding-left: 20px;
+}
+
+.case-history {
+  font-weight: bold;
+  padding-bottom: 3px;
+  border-bottom: 0.5px solid grey;
+}
+
+.case-record {
+  font-size: smaller;
+  margin: 10px 0;
+}
+
+.appeal-query {
+  font-size: small;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.appeal-msg-history {
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid grey;
 }
 
 header ul {
