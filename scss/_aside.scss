@@ -2,24 +2,25 @@
 
 aside {
     background-color: rgba(245, 245, 220, 0.98);
+    font-weight: 600;
     padding: 20px 30px;
     min-width: 200px;
     // align-items: center;
     display: flex;
     flex-direction: column;
     // justify-content: space-between;
-    gap: 70px;
-    .logo {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background-color: pink;
-        // padding-left: 30%;
-    }
+    gap: 30px;
+    // .logo {
+    //     width: 60px;
+    //     height: 60px;
+    //     border-radius: 50%;
+    //     background-color: pink;
+    //     // padding-left: 30%;
+    // }
 
     ul {
         letter-spacing: 1.2px;
-        line-height: 30px;
+        line-height: 40px;
         
         li {
             width: 100%;
@@ -29,5 +30,19 @@ aside {
             }
         }
 
+    }
+}
+
+.user ul li a{
+    // outline: 1px solid red;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    // padding-top: 3px;
+    margin: 0;
+    .icon {
+        margin-bottom: 20px;
+        width: 15px;
+        height: 15px;
     }
 }

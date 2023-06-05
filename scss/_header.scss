@@ -1,15 +1,38 @@
 
 
 header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: solid 0.2px rgba(128, 128, 128, 0.171);
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .nysc{
+            padding-top: 5px;
+            font-weight: bold;
+            font-size: xx-large;
+            color: green;
+        }
+       img {
+        width: 70px;
+        height: 65px;
+        // border-radius: 50%;
+       }
+        // background-color: pink;
+        // padding-left: 30%;
+    }
     ul {
         display: flex;
     gap: 60px;
-    background-color: honeydew;
+    
     // background-color: rgb(126, 60, 192);
     justify-content: end;
     font-weight: bold;
-    padding-right: 55px;
-    padding-top: 30px;
-    padding-bottom: 20PX;
+    // padding-right: 55px;
+    
     }
 }

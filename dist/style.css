@@ -1,20 +1,15 @@
 aside {
   background-color: rgba(245, 245, 220, 0.98);
+  font-weight: 600;
   padding: 20px 30px;
   min-width: 200px;
   display: flex;
   flex-direction: column;
-  gap: 70px;
-}
-aside .logo {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: pink;
+  gap: 30px;
 }
 aside ul {
   letter-spacing: 1.2px;
-  line-height: 30px;
+  line-height: 40px;
 }
 aside ul li {
   width: 100%;
@@ -22,6 +17,18 @@ aside ul li {
 }
 aside ul li:hover {
   background-color: beige;
+}
+
+.user ul li a {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+}
+.user ul li a .icon {
+  margin-bottom: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 .clearnace-schedule {
@@ -82,16 +89,17 @@ aside ul li:hover {
 }
 
 .datafield {
-  padding: 10px 20px;
+  padding: 10px 10px 10px 20px;
   width: 270px;
   background-color: rgba(153, 152, 152, 0.808);
   border-radius: 3.5px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .bottom-section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
   margin: 30px 0;
@@ -109,10 +117,16 @@ aside ul li:hover {
 }
 .bottom-section .blog-posts .posts {
   font-size: small;
+  display: flex;
+  justify-content: space-between;
   cursor: pointer;
   letter-spacing: 2.5px;
   padding: 13px 0;
   border-bottom: 0.4px solid grey;
+}
+.bottom-section .blog-posts .posts .rightarrow img {
+  width: 13px;
+  height: 12px;
 }
 
 .reach-us {
@@ -120,6 +134,8 @@ aside ul li:hover {
   width: 250px;
   padding: 15px 10px;
   border: 0.4px solid grey;
+  display: flex;
+  flex-wrap: wrap;
 }
 .reach-us .ru-title {
   font-weight: bold;
@@ -183,11 +199,12 @@ aside ul li:hover {
 }
 .details .detailfield .f-title {
   color: rgb(39, 39, 39);
+  font-size: small;
 }
 .details .detailfield .f-data {
   font-weight: bold;
   color: rgb(56, 54, 54);
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .update-details {
@@ -316,15 +333,34 @@ aside ul li:hover {
   border-bottom: 0.5px solid grey;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: solid 0.2px rgba(128, 128, 128, 0.171);
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .logo .nysc {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: xx-large;
+  color: green;
+}
+header .logo img {
+  width: 70px;
+  height: 65px;
+}
 header ul {
   display: flex;
   gap: 60px;
-  background-color: honeydew;
   justify-content: end;
   font-weight: bold;
-  padding-right: 55px;
-  padding-top: 30px;
-  padding-bottom: 20PX;
 }
 
 main {
@@ -332,6 +368,7 @@ main {
 }
 
 html {
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   font-size: 100%;
 }
